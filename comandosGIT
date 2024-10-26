@@ -1,11 +1,15 @@
-git init //inicializar repositorio
+git clone "URL" //Realiza un repositorio en la nube y clona
 
-git clone "URL" //Clonar repositorio
+git remote add nombre URL //Cambias de nombre(asocias nombre a URL)
 
-git add "archivo" //Agregar archivo
+git fetch "nombre" //Trae informacion sobre estado,ramas...
 
-git status //Ver estado del repositorio
+git pull //Combina trabajos de repositorio
 
-git commit -m "Mensaje"
+git push origin //Envia datos al repositorio
 
-git log //Historial commits
+git remote show [nombre-remoto] //Inspeccionar informacion de un remoto concreto
+
+git remote rm //Eliminar remotos
+
+git remote rename "nombre_antiguo" "nombre_nuevo" //Renombrar remotos
