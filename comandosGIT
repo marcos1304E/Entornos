@@ -1,0 +1,11 @@
+git init //inicializar repositorio
+
+git clone "URL" //Clonar repositorio
+
+git add "archivo" //Agregar archivo
+
+git status //Ver estado del repositorio
+
+git commit -m "Mensaje"
+
+git log //Historial commits
